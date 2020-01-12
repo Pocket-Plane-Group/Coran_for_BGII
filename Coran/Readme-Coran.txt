@@ -1,5 +1,5 @@
 			Coran NPC MOD for Baldur's Gate II
-				   Version 6
+				   Version 7
 			  A Pocket Plane Group Project
 			   http://www.pocketplane.net
 
@@ -172,6 +172,10 @@ WeiDU					http://www.weidu.org
 -------------------
 6. Version History
 -------------------
+
+Version 7
+-updated coran.ini with the GitHub address for download
+-added folder libiconv-1.9.2-1-src.zip with iconv licence info
 
 Version 6
 - EET compatibility
