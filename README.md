@@ -7,7 +7,7 @@ Coran, a non-player character from the first game in Baldur's Gate series, is a 
 
 Note: For downloading the current version from GitHub, make sure you go to the releases page and download the [latest release](https://github.com/Pocket-Plane-Group/Coran_for_BGII/releases) of this mod!
 
-[Read the Readme](http://mods.pocketplane.net/kulyok/Readme-BackBrynnlaw.txt)
+[Read the Readme](http://mods.pocketplane.net/kulyok/Readme-Coran.txt)
 
 [Visit the Mod's Page at PPG](http://www.pocketplane.net/oneday)
 
