@@ -1,0 +1,7 @@
+IF
+Global("O#CoranMovesDestroys","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("O#CoranMovesDestroys","GLOBAL",1)
+DestroySelf()
+END

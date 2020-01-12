@@ -1,0 +1,8 @@
+IF
+Global("O#CoranSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#Coran",[375.900],0) 
+SetGlobal("O#CoranSpawn","GLOBAL",1)
+Continue()
+END

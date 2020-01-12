@@ -1,0 +1,16 @@
+IF
+Global("O#CoranShutUp","GLOBAL",0)
+TimeofDay(NIGHT)
+AreaType(OUTDOOR)
+OR(3)
+Global("O#CoranPCTalk","GLOBAL",3)
+Global("O#CoranPCTalk","GLOBAL",15)
+Global("O#CoranPCTalk","GLOBAL",21)
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+IncrementGlobal("O#CoranPCTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END

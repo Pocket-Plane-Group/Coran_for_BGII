@@ -1,0 +1,11 @@
+IF
+Global("StartEndBios","AR6200",1)
+InParty("O#Coran")
+Global("O#CoranBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("O#CoranBio","GLOBAL",1)
+TextScreen("O#Cor01")
+SmallWait(1)
+Continue()
+END
