@@ -2,7 +2,7 @@ BACKUP ~Coran/Backup~
 
 AUTHOR ~http://forums.pocketplane.net~
 
-VERSION ~v7~ 
+VERSION ~v8~ 
 
 README ~Coran/%LANGUAGE%/Readme-Coran.txt~ ~Coran/Readme-Coran.txt~ 
 
@@ -45,6 +45,7 @@ AUTO_TRA ~Coran/%s~
 
 LANGUAGE ~English~ ~English~ ~Coran/English/Setup-Coran.tra~
 LANGUAGE ~Russian~ ~Russian~ ~Coran/Russian/Setup-Coran.tra~
+LANGUAGE ~SChinese~ ~SChinese~ ~Coran/SChinese/Setup-Coran.tra~
 
 BEGIN @0
 
