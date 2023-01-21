@@ -1,5 +1,5 @@
 			Coran NPC MOD for Baldur's Gate II
-				   Version 8.1
+				   Version 9
 			  A Pocket Plane Group Project
 			   http://www.pocketplane.net
 
@@ -172,6 +172,10 @@ WeiDU					http://www.weidu.org
 -------------------
 6. Version History
 -------------------
+
+Version 9:
+-German version by Belryll
+-Added support for Project Infinity: globally unique LABELs and install order syntax
 
 Version 8.1
 -Update to Simplified Chinese version by Cobalt

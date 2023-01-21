@@ -2,7 +2,7 @@ BACKUP ~Coran/Backup~
 
 AUTHOR ~http://forums.pocketplane.net~
 
-VERSION ~v8.1~ 
+VERSION ~v9~ 
 
 README ~Coran/%LANGUAGE%/Readme-Coran.txt~ ~Coran/Readme-Coran.txt~ 
 
@@ -46,8 +46,10 @@ AUTO_TRA ~Coran/%s~
 LANGUAGE ~English~ ~English~ ~Coran/English/Setup-Coran.tra~
 LANGUAGE ~Russian~ ~Russian~ ~Coran/Russian/Setup-Coran.tra~
 LANGUAGE ~SChinese~ ~SChinese~ ~Coran/SChinese/Setup-Coran.tra~
+LANGUAGE ~German (nur SvA)~ ~German~ ~Coran/German/Setup-Coran.tra~
 
 BEGIN @0
+LABEL O#CoranBGII-main
 
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~
@@ -215,5 +217,6 @@ END ELSE BEGIN
 END
 
 BEGIN @46
+LABEL O#CoranBGII-Delete_original_Coran
 
 EXTEND_TOP ~C6Coran.bcs~ ~Coran/Scripts/C6Coran.baf~
