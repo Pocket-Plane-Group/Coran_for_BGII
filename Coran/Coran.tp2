@@ -24,7 +24,7 @@ ALWAYS
   INCLUDE ~%MOD_FOLDER%/handle_charsets.tpa~
 
   // No exception, everything needs to be converted
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN END
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN INSTALL END
 
   // Only setup-mod.tra needs to be reloaded
   ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Coran END
@@ -45,7 +45,7 @@ AUTO_TRA ~Coran/%s~
 
 LANGUAGE ~English~ ~English~ ~Coran/English/Setup-Coran.tra~
 LANGUAGE ~Russian~ ~Russian~ ~Coran/Russian/Setup-Coran.tra~
-LANGUAGE ~SChinese~ ~SChinese~ ~Coran/SChinese/Setup-Coran.tra~
+LANGUAGE ~SChinese~ ~SChinese~ ~Coran/SChinese/INSTALL.tra~
 LANGUAGE ~German (nur SvA)~ ~German~ ~Coran/German/Setup-Coran.tra~
 
 BEGIN @0
